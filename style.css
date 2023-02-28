@@ -45,3 +45,25 @@ Sticky header is experimental, only use it on the front for screens above 782px 
 .admin-bar .is-style-hody-addon-transparent-header {
 		top: 32px !important;
 	}
+
+/* Reset Default HTML */
+input {
+    min-height: 40px;
+    font-family: var(--wp--preset--font-family--cormorant);
+    font-size: var(--wp--preset--font-size--normal);
+    font-weight: 700;
+	padding: 16px;
+}
+button {
+	
+}
+textarea {
+    width: 100% !important;
+}
+textarea#questions_or_comments {
+    min-height: 180px;
+}
+
+.jet-fb-form-block {
+	font-family: var(--wp--preset--font-family--heebo);
+}

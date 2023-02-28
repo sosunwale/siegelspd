@@ -1,0 +1,45 @@
+.is-style-hody-sgpd-jetforms-button {
+    border-radius: 0px;
+    font-family: var(--wp--preset--font-family--cormorant);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+	background: var(--wp--preset--color--custom-base);
+	color: #fff;
+    width: 100%;
+    text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+}
+.is-style-hody-sgpd-yestyear-bg-heading {
+    z-index: -1;
+    text-shadow: 0px 0px 1px #000000;
+    position: absolute;
+    top: -20px;
+}
+.group-is-relative {
+    position: relative;
+}
+@media screen and (min-width: 782px) {
+
+
+}
+
+.is-style-hody-sgpd-transparent-part > div {
+    background: transparent !important;
+}
+.is-style-hody-sgpd-transparent-part {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: space-between; 
+}
+.is-style-hody-sgpd-transparent-part *, .is-style-hody-sgpd-transparent-part > * {
+    z-index: 20;
+    }
+.admin-bar .is-style-hody-sgpd-transparent-part {
+		top: 32px !important;
+	}

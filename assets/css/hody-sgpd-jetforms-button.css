@@ -1,0 +1,11 @@
+.is-style-hody-sgpd-jetforms-button {
+    border-radius: 0px;
+    font-family: var(--wp--preset--font-family--cormorant);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+	background: var(--wp--preset--color--custom-base);
+	color: #fff;
+}

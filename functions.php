@@ -24,7 +24,7 @@ define( 'HODY_SGPD_VERSION', wp_get_theme()->get( 'Version' ) );
  */
 function hody_sgpd_setup() {
 	add_theme_support( 'wp-block-styles' );
-	//add_editor_style( './assets/css/style-shared.min.css' );
+	add_editor_style( './assets/css/style-shared.min.css' );
 	//add_editor_style( './assets/css/style-shared.css' );
 
 	/*
@@ -72,10 +72,10 @@ add_action( 'wp_enqueue_scripts', 'hody_sgpd_styles' );
 //require_once get_theme_file_path( 'inc/filters.php' );
 
 // Block variation .
-//require_once get_theme_file_path( 'inc/register-block-variations.php' );
+require_once get_theme_file_path( 'inc/register-block-variations.php' );
 
-// Block style .
-//require_once get_theme_file_path( 'inc/register-block-styles.php' );
+ //Block style .
+require_once get_theme_file_path( 'inc/register-block-styles.php' );
 
 // Block pattern and block category.
 //require_once get_theme_file_path( 'inc/register-block-patterns.php' );
