@@ -1,0 +1,47 @@
+/*
+Theme Name: Siegels PD
+Theme URI: https://siegelsportraitdesign.com
+Author: Hodessy, LLC
+Author URI: 
+Description: 
+Requires at least: 5.8
+Tested up to: 5.9
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: 
+Text Domain: siegelspd
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
+*/
+/*
+Sticky header is experimental, only use it on the front for screens above 782px width.
+*/
+@media screen and (min-width: 782px) {
+
+	.is-style-hody-addon-sticky-part {
+		position: sticky;
+		top: 0;
+		z-index: 999;
+	}
+
+	/* Move the sticky position down to adjust for the WordPress admin bar */
+	.admin-bar .is-style-hody-addon-sticky-part {
+		top: 32px;
+	}
+}
+.is-style-hody-addon-transparent-header > div {
+    background: transparent !important;
+}
+.is-style-hody-addon-transparent-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: space-between; 
+}
+.is-style-hody-addon-transparent-header *, .is-style-hody-addon-transparent-header > * {
+    z-index: 20;
+    }
+.admin-bar .is-style-hody-addon-transparent-header {
+		top: 32px !important;
+	}

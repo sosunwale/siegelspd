@@ -1,0 +1,283 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#000",
+					"name": "Base",
+					"slug": "custom-base"
+				},
+				{
+					"color": "#000",
+					"name": "Contrast",
+					"slug": "custom-contrast"
+				},
+				{
+					"color": "#000",
+					"name": "Primary",
+					"slug": "custom-primary"
+				},
+				{
+					"color": "#000",
+					"name": "Secondary",
+					"slug": "custom-secondary"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "1050px",
+			"wideSize": "1250px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/cormorant_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cormorant_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/cormorant_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/cormorant_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/cormorant_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/cormorant_italic_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cormorant_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/cormorant_italic_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/cormorant_italic_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/cormorant_italic_700.ttf"
+							]
+						}
+					],
+					"fontFamily": "Cormorant",
+					"slug": "cormorant"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Heebo",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/heebo_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Heebo",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/heebo_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Heebo",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/heebo_normal_600.ttf"
+							]
+						}
+					],
+					"fontFamily": "Heebo",
+					"slug": "heebo"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Yesteryear",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/yesteryear_normal_400.ttf"
+							]
+						}
+					],
+					"fontFamily": "Yesteryear",
+					"slug": "yesteryear"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": "0px"
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|cormorant",
+					"fontSize": "14px",
+					"fontStyle": "normal",
+					"fontWeight": "500",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/columns": {
+				"spacing": {
+					"padding": {
+						"left": "20px",
+						"right": "20px"
+					}
+				}
+			},
+			"core/heading": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "500",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|cormorant",
+					"fontStyle": "normal",
+					"fontWeight": "600",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/paragraph": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|heebo"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|cormorant",
+					"fontSize": "var:preset|font-size|x-large"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|cormorant",
+					"fontSize": "58px",
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "36px"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "20px"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "20px"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "13px"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "Cormorant"
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "header",
+			"name": "header-large"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
+}
