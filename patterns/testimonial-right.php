@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Testimonial(left)
- * Slug: siegelspd/testimonial-left
+ * Title: Testimonial(right)
+ * Slug: siegelspd/testimonial-right
  * Categories: text
  * Inserter: yes
  */
