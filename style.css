@@ -67,3 +67,10 @@ textarea#questions_or_comments {
 .jet-fb-form-block {
 	font-family: var(--wp--preset--font-family--heebo);
 }
+footer.wp-block-template-part {
+    margin-block-start: 0;
+}
+
+/* Hody Global */
+.opacity-8 {opacity: 0.8;}
+.opacity-5{opacity: 0.5;}

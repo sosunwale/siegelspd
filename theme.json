@@ -309,10 +309,31 @@
 			"name": "header-large"
 		},
 		{
+			"area": "header",
+			"name": "header-light"
+		},
+		{
 			"area": "footer",
 			"name": "footer"
 		}
 	],
 	"version": 2,
+	"customTemplates": [
+		{
+			"name": "blank",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Blank"
+		},
+		{
+			"name": "full-width-page-transparent-header",
+			"postTypes": [
+				"page"
+			],
+			"title": "Full Width (Transparent Header)"
+		}
+	],
 	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }

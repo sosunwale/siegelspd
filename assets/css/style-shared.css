@@ -43,3 +43,8 @@
 .admin-bar .is-style-hody-sgpd-transparent-part {
 		top: 32px !important;
 	}
+
+/* Hody Global */
+.opacity-8 {opacity: 0.8;}
+.opacity-5{opacity: 0.5;}
+.opacity-3{opacity: 0.3;}
