@@ -71,6 +71,9 @@ add_action( 'wp_enqueue_scripts', 'hody_sgpd_styles' );
 // Filters.
 //require_once get_theme_file_path( 'inc/filters.php' );
 
+//CPT
+require_once get_theme_file_path( 'inc/sgpd-cpt.php' );
+
 // Block variation .
 require_once get_theme_file_path( 'inc/register-block-variations.php' );
 
