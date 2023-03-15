@@ -51,6 +51,10 @@ input {
     font-weight: 700;
 	padding: 16px;
 }
+select {
+    min-height: 60px;
+    padding: 12px;
+}
 button {
 	
 }
@@ -60,9 +64,20 @@ textarea {
 textarea#questions_or_comments {
     min-height: 180px;
 }
-
+textarea {
+    min-height: 214px;
+}
 .jet-fb-form-block {
 	font-family: var(--wp--preset--font-family--heebo);
+}
+.jet-form-builder__label {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.jet-form-builder__desc {
+    font-size: 13px;
+    text-decoration: underline;
 }
 footer.wp-block-template-part {
     margin-block-start: 0;
