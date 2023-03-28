@@ -7,7 +7,7 @@ Description:
 Requires at least: 5.8
 Tested up to: 5.9
 Requires PHP: 5.7
-Version: 1.0.28
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template: 
@@ -86,3 +86,7 @@ footer.wp-block-template-part {
 /* Hody Global */
 .opacity-8 {opacity: 0.8;}
 .opacity-5{opacity: 0.5;}
+.sgd-img-fit  {
+    width: fit-content;
+    max-width: 100%;
+}
