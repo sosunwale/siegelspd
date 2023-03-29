@@ -82,6 +82,16 @@ textarea {
 footer.wp-block-template-part {
     margin-block-start: 0;
 }
+/* Gut MobileMenu */
+
+@media screen and (max-width: 782px) { 
+	.wp-block-navigation__submenu-container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  gap: 20px !important;
+}
+}
+/* End MobileMenu Custom CSS */
 
 /* Hody Global */
 .opacity-8 {opacity: 0.8;}
